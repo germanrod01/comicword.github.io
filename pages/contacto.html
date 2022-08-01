@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../assets/icons/escudo.png">
+        <title>ComicWord</title>
+        <link rel="stylesheet" href="../assets/css/estilos.css">
+    
+    </head>
+    
+    <body>
+        <header class="ancho">
+            <!--html semantico-->
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/icons/capitan.png" alt="Inicio">
+                </a>
+            </div>
+            <nav class="menu">
+                <ul>
+            <!--enlaces relativos-->
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./promociones.html">Promociones</a></li>
+            <li><a href="./marvel.html">Marvel</a></li>
+            <li><a href="./dc.html">DC</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+        </nav>
+    </header>
+    <nav><h1>Contacto</h1>
+    </nav>
+    
+    <form action="procesar.php" name="contacto" method="post">
+        <fieldset>
+            <legend>Hola!</legend>
+            <p> 
+                <label>Nombre:
+                    <input type="text" name="nombre" placeholder="German" required>
+                </label>
+            </p>
+            <p>
+                <label>Apellido
+                    <input type="text" name="apellido" placeholder="Rodriguez" required>
+                </label>
+            </p>
+            <p> 
+                <label>Email
+                    <input type="email" name="email" placeholder="german@gmail.com" required>
+                </label>
+            </p>
+            <p> 
+                <label>Contraseña
+                    <input type="password" name="Contraseña">
+                </label>
+            </p>
+            <h4>Sexo</h4>
+            <label for="sexo">Hombre</label>
+            <input type="radio" name="sexo" value="Hombre">
+            <label for="sexo">Mujer</label>
+            <input type="radio" name="sexo" value="mujer">
+            <label for="sexo">Otro</label>
+            <input type="radio" name="sexo" value="otro">
+            <p>
+                <h4>Editorial</h4>
+                <p>
+                    <label for="linea">DC</label>
+                    <input type="checkbox" name="linea" value="comic">
+                </p>
+                <p>
+                    <label for="linea">Marvel</label>
+                    <input type="checkbox" name="linea" value="comic">
+                </p>
+                <h4>Dejanos tu comentario</h4>
+                <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                <button type="submit">Enviar</button>
+            </p>
+            <p>
+                <button type="reset">Borrar formulario</button>
+            </p>
+        </fieldset>
+    </form>
+    <footer id="piedepagina">
+        <article>
+            <h3>
+                Seguinos en nuestras redes
+            </h3>
+            <ul>
+                <li>
+                    <ul><!--enlaces-->
+                        <li>Facebook</li>
+                        <li>Instragram</li>
+                        <li>Twitter</li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+        <article class="redes sociales">
+        <!--icono de redes-->
+        <!--icono de redes-->
+        <!--icono de redes-->
+    </article>
+</footer>
+</body>
+</html>
