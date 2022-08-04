@@ -307,12 +307,12 @@ ul{list-style-type: none;
 
 
 .boton{
-    padding: 12px 25px;
+    padding: 6px 8px;
     background-color: black;
     border-radius: 25px;
     text-decoration: none;
     color: white;
-    margin-top: 10px;
+    margin-top: 5px;
     transition: 2s;
     
 }
@@ -472,11 +472,7 @@ main section article nav ol li{
     
 }
 
-.boton:hover{
-    height: 100px;
-    background-color: #1B35DA;
-    
-}
+
 
 .video{
     animation-name: animo;

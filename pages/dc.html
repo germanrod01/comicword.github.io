@@ -7,6 +7,7 @@
         <link rel="icon" href="../assets/icons/escudo.png">
         <title>ComicWord</title>
         <link rel="stylesheet" href="../assets/css/estilos.css">
+        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-grid.min.css">
     </head>
     
     
@@ -32,26 +33,30 @@
 <main>
     <nav class="grid-layout">
         <h1 class="caja1">DC</h1>
-        <article class="caja2">
-            <img class="fotobatman" src="../assets/img/ALL STAR BATMAN VOL.jpg" alt="">
-            <p class="batman">ALL STAR BATMAN</p>
-            <button>Comprar</button>
-        </article>
-        <article class="caja3">
-            <img class="fotosuperman" src="../assets/img/superrman.jpg" alt="">
-            <p class="superman">SUPERMAN DOOMSDAY</p>
-            <button>Comprar</button>
-        </article>
-        <article class="caja4">
-            <img class="fotoescuadronsuicida" src="../assets/img/ESCUADRON SUICIDA.jpg" alt="">
-            <p class="escuadron">ESCUADRON SUICIDA</p>
-            <button>Comprar</button>
-        </article>
-        <article class="caja5">
-            <img class="fotobatman2" src="../assets/img/batman2.jpg" alt="">
-            <p class="superman2">UNIVERSO DC POR MIKE MIGNOLA</p>
-            <button>Comprar</button>
-        </article>
+        <div class="container text-center mt-7 mb-7">
+            <div class="row">
+            <div class="col col mt-3 mb-6">
+                <img class="fotobatman" src="../assets/img/ALL STAR BATMAN VOL.jpg" alt="">
+            <p>ALL STAR BATMAN</p>
+            <button type="button" class="btn btn-link">Comprar</button>
+            </div>
+            <div class="col col mt-3 mb-6">
+                <img class="fotosuperman" src="../assets/img/superrman.jpg" alt="">
+            <p>SUPERMAN DOOMSDAY</p>
+            <button type="button" class="btn btn-link">Comprar</button>
+            </div>
+            <div class="col col mt-3 mb-6">
+                <img class="fotoescuadronsuicida" src="../assets/img/ESCUADRON SUICIDA.jpg" alt="">
+            <p>ESCUADRON SUICIDA</p>
+            <button type="button" class="btn btn-link">Comprar</button>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img class="fotobatman2" src="../assets/img/batman2.jpg" alt="">
+            <p>UNIVERSO DC POR MIKE MIGNOLA</p>
+            <button type="button" class="btn btn-link">Comprar</button>
+                </div>
+            </div>
     </nav>
 </main>
 <footer id="piedepagina">
@@ -59,14 +64,10 @@
         <h3>
             Seguinos en nuestras redes
         </h3>
-        <ul>
-            <li>
-                <ul><!--enlaces-->
-                    <li>Facebook</li>
-                    <li>Instragram</li>
-                    <li>Twitter</li>
-                </ul>
-            </li>
+        <ul><!--enlaces-->
+            <li><a href="https://es-la.facebook.com/">FACEBOOK</a></li>
+            <li><a href="https://www.instagram.com/germaaan._/">INSTAGRAM</a></li>
+            <li><a href="https://twitter.com/?lang=es">TWITTER</a></li>
         </ul>
     </article>
     <article class="redes sociales">
@@ -75,6 +76,7 @@
             <!--icono de redes-->
         </article>
     </footer>
+    <script src="../libs/bootstrap/js/bootstrap.bundle.min.js"></script>r
 </body>
 
 </html>

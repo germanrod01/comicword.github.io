@@ -7,6 +7,7 @@
         <link rel="icon" href="../assets/icons/escudo.png">
         <title>ComicWord</title>
         <link rel="stylesheet" href="../assets/css/estilos.css">
+        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-grid.min.css">
         
 
     
@@ -33,32 +34,38 @@
 </nav>
 </header>
 <main>
+    
     <nav class="grid-layout">
         <h1 class="caja1">Comics de marvel</h1>
-        <article class="caja2">
-            <img class="fotocapitana" src="../assets/img/capitanamarvel.jpg" alt="">
-            <p class="capitana">CAPITANA MARVEL 01 </p>
-            <button>Comprar</button>
-        </article>
-        <article class="caja3">
-            <img class="fotocapitanamerica" src="../assets/img/CAPITAN AMERICA.jpg" alt="">
-            <p class="capitan">CAPITAN AMERICA 03</p>
-            <button>Comprar</button>
-        </article>
-        <article class="caja4">
-            <img class="fotofortnite" src="../assets/img/fortnite.jpg" alt="">
-            <p class="fortnite">FORTNITE X MARVEL </p>
-            <button>Comprar</button>
-        </article>
-        <article class="caja5">
-            <img class="fotoironman" src="../assets/img/TONY STARK IRON.jpg" alt="">
-            <p class="ironman">TONY STARK IRON MAN</p>
-            <button>Comprar</button>
-        </article>
-        <article class="caja6">
-            <img class="fotospiderman" src="../assets/img/mazinspiderman.jpg" alt="">
-            <p class="spider">THE AMAZING SPIDER-MAN</p>
-            <button>Comprar</button>
+        <div class="container text-center mt-7 mb-7">
+            <div class="row">
+            <div class="col col mt-3 mb-6">
+                <img class="fotocapitana" src="../assets/img/capitanamarvel.jpg" alt="">
+            <p>CAPITANA MARVEL 01 </p>
+            <button type="button" class="btn btn-link">Comprar</button>
+            </div>
+            <div class="col col mt-3 mb-6">
+                <img class="fotocapitanamerica" src="../assets/img/CAPITAN AMERICA.jpg" alt="">
+            <p>CAPITAN AMERICA 03</p>
+            <button type="button" class="btn btn-link">Comprar</button>
+            </div>
+            <div class="col col mt-3 mb-6">
+                <img class="fotofortnite" src="../assets/img/fortnite.jpg" alt="">
+            <p>FORTNITE X MARVEL</p>
+            <button type="button" class="btn btn-link">Comprar</button>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img class="fotoironman" src="../assets/img/TONY STARK IRON.jpg" alt="">
+                    <p>TONY STARK IRON MAN</p>
+                    <button type="button" class="btn btn-link">Comprar</button>
+                </div>
+                <div class="col">
+                    <img class="fotospiderman" src="../assets/img/mazinspiderman.jpg" alt="">
+                    <p>THE AMAZING SPIDER-MAN</p>
+                    <button type="button" class="btn btn-link">Comprar</button>
+                </div>
+            </div>
         
         
 
@@ -69,14 +76,10 @@
         <h3>
             Seguinos en nuestras redes
         </h3>
-        <ul>
-            <li>
-                <ul><!--enlaces-->
-                    <li>Facebook</li>
-                    <li>Instragram</li>
-                    <li>Twitter</li>
-                </ul>
-            </li>
+        <ul><!--enlaces-->
+            <li><a href="https://es-la.facebook.com/">FACEBOOK</a></li>
+            <li><a href="https://www.instagram.com/germaaan._/">INSTAGRAM</a></li>
+            <li><a href="https://twitter.com/?lang=es">TWITTER</a></li>
         </ul>
     </article>
     <article class="redes sociales">
@@ -85,6 +88,7 @@
             <!--icono de redes-->
         </article>
     </footer>
+    <script src="../libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

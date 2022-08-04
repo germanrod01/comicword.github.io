@@ -7,6 +7,7 @@
         <link rel="icon" href="../assets/icons/escudo.png">
         <title>ComicWord</title>
         <link rel="stylesheet" href="../assets/css/estilos.css">
+        <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-grid.min.css">
     
     </head>
     
@@ -29,6 +30,23 @@
         </ul>
         </nav>
     </header>
+    <form>
+        <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">No compartimos tus datos</div>
+        </div>
+        <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
     <nav><h1>Contacto</h1>
     </nav>
     
@@ -55,18 +73,22 @@
                     <input type="password" name="Contraseña">
                 </label>
             </p>
-            <h4>Sexo</h4>
-            <label for="sexo">Hombre</label>
-            <input type="radio" name="sexo" value="Hombre">
-            <label for="sexo">Mujer</label>
-            <input type="radio" name="sexo" value="mujer">
-            <label for="sexo">Otro</label>
-            <input type="radio" name="sexo" value="otro">
+            <p>
+                <h4>Genero</h4>
+                <p>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccionar</option>
+                <option value="1">Hombre</option>
+                <option value="2">Mujer</option>
+            </select>
             <p>
                 <h4>Editorial</h4>
                 <p>
-                    <label for="linea">DC</label>
-                    <input type="checkbox" name="linea" value="comic">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Seleccionar</option>
+                        <option value="1">Mavel</option>
+                        <option value="2">DC</option>
+                    </select>
                 </p>
                 <p>
                     <label for="linea">Marvel</label>
@@ -86,14 +108,10 @@
             <h3>
                 Seguinos en nuestras redes
             </h3>
-            <ul>
-                <li>
-                    <ul><!--enlaces-->
-                        <li>Facebook</li>
-                        <li>Instragram</li>
-                        <li>Twitter</li>
-                    </ul>
-                </li>
+            <ul><!--enlaces-->
+                <li><a href="https://es-la.facebook.com/">FACEBOOK</a></li>
+                <li><a href="https://www.instagram.com/germaaan._/">INSTAGRAM</a></li>
+                <li><a href="https://twitter.com/?lang=es">TWITTER</a></li>
             </ul>
         </article>
         <article class="redes sociales">
@@ -102,5 +120,6 @@
         <!--icono de redes-->
     </article>
 </footer>
+<script src="../libs/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
