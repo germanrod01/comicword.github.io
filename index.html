@@ -4,35 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--icono marca-->
     <title>ComicWord</title>
-    <meta name="description" content="Todos los cómics.Encontrá el último número de la serie y descubrí todas las colecciones que tenemos para vos.">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="icon" href="./assets/icons/escudo.png">
-    <!--bootstrap-->
     <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css">
-    <!--animateCSS-->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <!--estilos css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./assets/css/estilos.css">
-    
 </head>
 <body>
-    <header class="ancho"><!--html semantico-->
-        <div class="logo">
-            <a href="../index.html">
-                <img src="./assets/icons/capitan.png" alt="Inicio">
-            </a>
-        </div>
-        <nav class="menu">
-            <ul><!--enlaces relativos-->
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/promociones.html">Promociones</a></li>
-                <li><a href="./pages/marvel.html">Marvel</a></li>
-                <li><a href="./pages/dc.html">DC</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+    <header class="ancho">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"> <img class="logo" src="./assets/icons/capitan.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/promociones.html">PROMOCIONES</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">EDITORIAL</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="./pages/marvel.html">MARVEL</a></li>
+                                <li><a class="dropdown-item" href="./pages/dc.html">DC</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -40,47 +47,47 @@
             <p class="h1">Encontra los mejores comics</p>
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                 <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/img/bannerdc1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/banner3.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/img/bannerdc2.jpg" class="d-block w-100" alt="...">
-                </div>
+                    <div class="carousel-item active">
+                        <img src="./assets/img/bannerdc1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/banner4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/img/bannerdc2.jpg" class="d-block w-100" alt="...">
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
             </div>
             <article class="caja">
                 <div class="container text-center mt-7 mb-7">
                     <div class="row">
-                    <div class="col col mt-3 mb-6">
-                        <img class="" src="./assets/img/comic marvel.jpg" alt="Marvel">
-                        <h1 class="">Marvel</h1>
-                        <h3>
-                            <a href="#"></a>
-                        </h3>
-                        <p class="frase">Descubre la selección más grande de cómics en español. Lanzamientos y Colecciones completas de Marvel</p>
-                        <button class="boton">Saber mas</button>
-                    </a>
+                        <div class="col col mt-3 mb-6">
+                            <img class="img-fluid" src="./assets/img/comic marvel.jpg" alt="Marvel">
+                            <h1 class="">Marvel</h1>
+                            <h3>
+                                <a href="#"></a>
+                            </h3>
+                            <p class="frase">Descubre la selección más grande de cómics en español. Lanzamientos y Colecciones completas de Marvel</p>
+                            <button class="boton">Saber mas</button>
+                        </a>
                     </div>
                     <div class="row">
                         <div class="col col mt-3 mb-6">
                             <a href="#">
-                                <img class="" src="./assets/img/comic dc.jpg" alt="DC">
+                                <img class="img-fluid" src="./assets/img/comic dc.jpg" alt="DC">
                             </a>
                             <h1>DC</h1>
                             <h3> 
@@ -89,53 +96,87 @@
                             <p class="frase">En 1938 DC publicó el primer comic; La historia de Superman en Action Comics no. 1. Conocé Todas las Ediciones</p>
                             <button class="boton">Saber mas</button>
                         </a>
-                        </div>
-                        <div class="row">
-                            <div class="col col mt-3 mb-6">
-                                <h1 class="display">Top de comics mas vendidos</h1><!--listas ordenadas-->
-                                <ol>
-                                    <li>CAPITAN AMERICA 03 LA LEYENDA DE STEVE</li>
-                                    <li>ESCUADRON SUICIDA LA CAMARA NEGRA</li>
-                                    <li>ALL STAR BATMAN VOL. 01: YO, MI PEOR ENEMIGO</li>
-                                    <li>TONY STARK IRON MAN 03 LA GUERRA DE LOS REINOS</li>
-                                    <li>THE AMAZING SPIDER-MAN 05 2099</li>
-                                </ol>  
-                            </a>
-
-            </article>
-            <article class="caja">
-                <nav class="top">
-                    <h1 class="display">Top de comics mas vendidos</h1><!--listas ordenadas-->
-                    
-                </nav>
-            </article>
-            <article class="caja">
-                <h3 class="letrasvideo">Te dejamos un video para que conozcas como leer un comic</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col col mt-3 mb-6">
+                            <h1 class="display">Top de comics mas vendidos</h1><!--listas ordenadas-->
+                            <div class="list-group">
+                                <a href="./pages/marvel.html" class="list-group-item list-group-item-action">CAPITAN AMERICA 03 LA LEYENDA DE STEVE</a>
+                                <a href="./pages/dc.html" class="list-group-item list-group-item-action">ESCUADRON SUICIDA LA CAMARA NEGRA</a>
+                                <a href="./pages/dc.html" class="list-group-item list-group-item-action">ALL STAR BATMAN VOL. 01: YO, MI PEOR ENEMIGO</a>
+                                <a href="./pages/marvel.html" class="list-group-item list-group-item-action">TONY STARK IRON MAN 03 LA GUERRA DE LOS REINOS</a>
+                                <a href="./pages/marvel.html" class="list-group-item list-group-item-action">THE AMAZING SPIDER-MAN 05 2099</a>
+                            </div> 
+                        </a>
+                    </article>
+                    <article class="caja">
+                        <h3 class="letrasvideo">Te dejamos un video para que conozcas como leer un comic</h3>
                 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/Q0XTDDHybk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </article>
-        </section>
-    </main>
-    <footer id="piedepagina">
-        <article>
-            <h3>
-                Seguinos en nuestras redes
-            </h3>
+            <div id="carouselExampleInterval" class="carousel slide final" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img class="sp-image" data-default="https://tap-multimedia-1172.nyc3.digitaloceanspaces.com/slider/2890/large/banners_home_marcas.jpg" data-large="https://tap-multimedia-1172.nyc3.digitaloceanspaces.com/slider/2890/large/banners_home_marcas.jpg" data-small="https://tap-multimedia-1172.nyc3.digitaloceanspaces.com/slider/2890/small/banners_home_marcas.jpg" data-medium="https://tap-multimedia-1172.nyc3.digitaloceanspaces.com/slider/2890/medium/banners_home_marcas.jpg" alt="Marvel" src="https://tap-multimedia-1172.nyc3.digitaloceanspaces.com/slider/2890/small/banners_home_marcas.jpg" style="width: auto; height: 100%; margin-left: 11px; margin-top: 16.4766px;">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="sp-image" data-default="https://tap-multimedia-1172.nyc3.digitaloceanspaces.com/slider/2892/large/banners_home_marcas1.jpg" data-large="https://tap-multimedia-1172.nyc3.digitaloceanspaces.com/slider/2892/large/banners_home_marcas1.jpg" data-small="https://tap-multimedia-1172.nyc3.digitaloceanspaces.com/slider/2892/small/banners_home_marcas1.jpg" data-medium="https://tap-multimedia-1172.nyc3.digitaloceanspaces.com/slider/2892/medium/banners_home_marcas1.jpg" alt="DC" src="https://tap-multimedia-1172.nyc3.digitaloceanspaces.com/slider/2892/small/banners_home_marcas1.jpg" style="width: auto; height: 100%; margin-left: 11px; margin-top: 16.4766px;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="piedepagina">
+    <article>
+        <section class="">
+            <form action="">
+                <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                    <p class="pt-2">
+                        <strong>¡Suscribite a nuestro newsletter!</strong>
+                    </p>
+                </div>
+                <div class="col-md-5 col-12">
+                    <div class="form-outline mb-4">
+                    <input type="email" id="form5Example2" class="form-control" />
+                    <label class="form-label" for="form5Example2">Tu correo electronico</label>
+                </div>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-4">
+                    Suscribite
+                </button>
+            </div>
+        </div>
+    </form>
+    <h4>
+        Seguinos en nuestras redes
+    </h4>
+    <ul>
+        <li>
             <ul>
                 <li>
-                    <ul><!--enlaces-->
-                        <li><a href="https://es-la.facebook.com/">FACEBOOK</a></li>
-                        <li><a href="https://www.instagram.com/germaaan._/">INSTAGRAM</a></li>
-                        <li><a href="https://twitter.com/?lang=es">TWITTER</a></li>
+                    <i class="bi bi-facebook"></i>
+                    <a href="https://es-la.facebook.com/">FACEBOOK</a></li>
+                        <li>
+                            <i class="bi bi-instagram"></i>
+                            <a href="https://www.instagram.com/germaaan._/">INSTAGRAM</a></li>
+                            <li>
+                                <i class="bi bi-twitter"></i>
+                                <a href="https://twitter.com/?lang=es">TWITTER</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-            </ul>
-        </article>
-        <article class="redes sociales">
-            <!--icono de redes-->
-            <!--icono de redes-->
-            <!--icono de redes-->
-        </article>
-    </footer>
-    <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+                </article>
+            </footer>
+            <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        </body>
+        </html>

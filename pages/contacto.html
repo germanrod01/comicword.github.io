@@ -6,120 +6,141 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="../assets/icons/escudo.png">
         <title>ComicWord</title>
-        <link rel="stylesheet" href="../assets/css/estilos.css">
+        <link rel="icon" href="..//assets/icons/escudo.png">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
         <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap-grid.min.css">
-    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/estilos.css">
     </head>
-    
     <body>
         <header class="ancho">
-            <!--html semantico-->
-            <div class="logo">
-                <a href="../index.html">
-                    <img src="../assets/icons/capitan.png" alt="Inicio">
-                </a>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"> <img class="logo" src="../assets/icons/capitan.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/promociones.html">PROMOCIONES</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    EDITORIAL
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/marvel.html">MARVEL</a></li>
+                                    <li><a class="dropdown-item" href="../pages/dc.html">DC</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <nav class="grid-layout">
+            <div class="container text-center mt-7 mb-7">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-sm">
+                            <form class="form-horizontal" method="post">
+                                <fieldset>
+                                    <legend class="text-center header">CONTACTO</legend>
+                                    <div class="form-group">
+                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                        <div class="col-md-8">
+                                        <input id="fname" name="name" type="text" placeholder="NOMBRE" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="lname" name="name" type="text" placeholder="APELLIDO" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="email" name="email" type="text" placeholder="EMAIL" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <input id="phone" name="phone" type="text" placeholder="TELEFONO" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                    <div class="col-md-8">
+                                        <textarea class="form-control" id="message" name="message" placeholder="ESCRIBE TU MENSAJE Y EN 2 DIAS HABILES TE ESTAREMOS RESPONDIENDO" rows="7"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="btn btn-primary btn-lg">ENVIAR</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <nav class="menu">
-                <ul>
-            <!--enlaces relativos-->
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./promociones.html">Promociones</a></li>
-            <li><a href="./marvel.html">Marvel</a></li>
-            <li><a href="./dc.html">DC</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-        </nav>
-    </header>
-    <form>
-        <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label">Email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <div id="emailHelp" class="form-text">No compartimos tus datos</div>
         </div>
-        <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
+        <div class="col col mt-3 mb-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54095878.79259763!2d174.16625976562506!3d34.15272698011818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf09218463db%3A0x48fb7ec9a5d6c988!2sWarner%20Bros.%20Studio%20Tour%20Hollywood!5e0!3m2!1ses-419!2sar!4v1659888962404!5m2!1ses-419!2sar" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-
-    <nav><h1>Contacto</h1>
     </nav>
-    
-    <form action="procesar.php" name="contacto" method="post">
-        <fieldset>
-            <legend>Hola!</legend>
-            <p> 
-                <label>Nombre:
-                    <input type="text" name="nombre" placeholder="German" required>
-                </label>
-            </p>
-            <p>
-                <label>Apellido
-                    <input type="text" name="apellido" placeholder="Rodriguez" required>
-                </label>
-            </p>
-            <p> 
-                <label>Email
-                    <input type="email" name="email" placeholder="german@gmail.com" required>
-                </label>
-            </p>
-            <p> 
-                <label>Contraseña
-                    <input type="password" name="Contraseña">
-                </label>
-            </p>
-            <p>
-                <h4>Genero</h4>
-                <p>
-            <select class="form-select" aria-label="Default select example">
-                <option selected>Seleccionar</option>
-                <option value="1">Hombre</option>
-                <option value="2">Mujer</option>
-            </select>
-            <p>
-                <h4>Editorial</h4>
-                <p>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Seleccionar</option>
-                        <option value="1">Mavel</option>
-                        <option value="2">DC</option>
-                    </select>
-                </p>
-                <p>
-                    <label for="linea">Marvel</label>
-                    <input type="checkbox" name="linea" value="comic">
-                </p>
-                <h4>Dejanos tu comentario</h4>
-                <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-                <button type="submit">Enviar</button>
-            </p>
-            <p>
-                <button type="reset">Borrar formulario</button>
-            </p>
-        </fieldset>
-    </form>
     <footer id="piedepagina">
         <article>
-            <h3>
-                Seguinos en nuestras redes
-            </h3>
-            <ul><!--enlaces-->
-                <li><a href="https://es-la.facebook.com/">FACEBOOK</a></li>
-                <li><a href="https://www.instagram.com/germaaan._/">INSTAGRAM</a></li>
-                <li><a href="https://twitter.com/?lang=es">TWITTER</a></li>
-            </ul>
-        </article>
-        <article class="redes sociales">
-        <!--icono de redes-->
-        <!--icono de redes-->
-        <!--icono de redes-->
-    </article>
-</footer>
-<script src="../libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <section class="">
+                <form action="">
+                    <div class="row d-flex justify-content-center">
+                    <div class="col-auto">
+                        <p class="pt-2">
+                            <strong>¡Suscribite a nuestro newsletter!</strong>
+                        </p>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <div class="form-outline mb-4">
+                        <input type="email" id="form5Example2" class="form-control" />
+                        <label class="form-label" for="form5Example2">Tu correo electronico</label>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-4">
+                        Suscribite
+                    </button>
+                </div>
+            </div>
+        </form>
+        <h4>
+            Seguinos en nuestras redes
+        </h4>
+        <ul>
+            <li>
+                <ul>
+                    <li>
+                        <i class="bi bi-facebook"></i>
+                        <a href="https://es-la.facebook.com/">FACEBOOK</a></li>
+                            <li>
+                                <i class="bi bi-instagram"></i>
+                                <a href="https://www.instagram.com/germaaan._/">INSTAGRAM</a></li>
+                                <li>
+                                    <i class="bi bi-twitter"></i>
+                                    <a href="https://twitter.com/?lang=es">TWITTER</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </article>
+                </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
