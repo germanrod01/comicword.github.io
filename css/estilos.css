@@ -4,9 +4,27 @@
   padding: 0%;
 }
 
+.navbar {
+  background-color: #1B35DA;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.header {
+  color: #36A0FF;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
 /*header*/
 header {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -453,29 +471,11 @@ main section article nav ol li {
 }
 
 .video {
-  -webkit-animation-name: animo;
-          animation-name: animo;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-animation-iteration-count: 1s;
-          animation-iteration-count: 1s;
-}
-
-@-webkit-keyframes animo {
-  0% {
-    transform: scale(0.5);
-    border-radius: 100%;
-  }
-  50% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(2);
-  }
+  animation-name: animo;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 3s;
+  animation-iteration-count: 1s;
 }
 
 @keyframes animo {
@@ -930,4 +930,6 @@ main section article nav ol li {
   .logo {
     display: none;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */
