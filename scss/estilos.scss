@@ -8,6 +8,39 @@ $top: 0;
 $index: 1;
 $cero: 0%;
 
+@mixin crearboton(){
+    padding: 6px 8px;
+    background-color: black;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    transition: 2s;
+}
+
+.boton{
+    @include crearboton();
+}
+
+$estilos: (
+    color: #36A0FF,
+    centro: center,
+    fuente: 35px,
+    1rem: 1rem
+);
+
+.bigicon {
+    color: map-get($map: $estilos, $key: color);
+}
+
+.fotocapitanamerica {
+    width: 200px;
+    height: 200px;
+}
+
+.fotoescuadronsuicida {
+    @extend .fotoironman
+}
 
 
 * {
