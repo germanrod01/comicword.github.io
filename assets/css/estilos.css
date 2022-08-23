@@ -57,7 +57,7 @@ ul {
 }
 
 /*contacto*/
-.header {
+.header{
   color: #36A0FF;
   font-size: 27px;
   padding: 10px;
@@ -87,15 +87,16 @@ p {
   font-family: "Abril Fatface", cursive;
 }
 
-.piedepagina {
-  background-color: #36A0FF;
-}
+
 
 /*fin*/
 ul {
   list-style-type: none;
 }
 
+.texto{
+  list-style-type: none;
+}
 /*bem*/
 /*GRID Promociones*/
 .grid-layout {
@@ -115,15 +116,7 @@ ul {
   height: 100px;
 }
 
-.caja2 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
-}
+
 
 .batman {
   letter-spacing: 1px;
@@ -138,15 +131,7 @@ ul {
   height: 200px;
 }
 
-.caja3 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
-}
+
 
 .capitan {
   letter-spacing: 1px;
@@ -160,17 +145,6 @@ ul {
   width: 200px;
   height: 200px;
 }
-
-.caja4 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
-}
-
 .escuadron {
   letter-spacing: 1px;
   border-radius: 25px;
@@ -182,16 +156,6 @@ ul {
 .fotoescuadronsuicida {
   width: 200px;
   height: 200px;
-}
-
-.caja5 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
 }
 
 .ironman {
@@ -207,15 +171,7 @@ ul {
   height: 200px;
 }
 
-.caja6 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
-}
+
 
 .spider {
   letter-spacing: 1px;
@@ -230,15 +186,7 @@ ul {
   height: 200px;
 }
 
-.caja7 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
-}
+
 
 .xmen {
   letter-spacing: 1px;
@@ -299,148 +247,54 @@ ul {
   transition: 2s;
 }
 
-main section article nav ol li {
-  font-size: 20px;
-  padding: 10px auto;
-  max-width: 90%;
-  line-height: 30px;
-  margin-top: 20px;
-}
+
 
 /*GRID marvel*/
-.caja2 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
-}
 
-.capitana {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
-}
+
+
 
 .fotocapitana {
   width: 200px;
   height: 200px;
 }
 
-.caja4 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
-}
 
-.fortnite {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
-}
+
 
 .fotofortnite {
   width: 200px;
   height: 200px;
 }
 
-.caja6 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
-}
 
-.guardianes {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
-}
+
 
 .fotoguardianes {
   width: 200px;
   height: 200px;
 }
 
-.caja7 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
-}
 
-.electra {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
-}
+
+
 
 .fotoelectra {
   width: 200px;
   height: 200px;
 }
 
-/*GRID dc*/
-.caja3 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
-}
 
-.superman {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
-}
+
+
 
 .fotosuperman {
   width: 200px;
   height: 200px;
 }
 
-.caja5 {
-  width: auto;
-  height: 250px;
-  border: 1px solid black;
-  margin: 15px;
-  text-align: center;
-  line-height: 10px;
-  float: left;
-}
 
-.batman2 {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
-}
+
 
 .fotobatman2 {
   width: 200px;
@@ -492,25 +346,7 @@ main section article nav ol li {
 }
 /*mobile*/
 @media (max-width: 768px) {
-  .inicio {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    width: 80%;
-    margin: 0 auto;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    justify-self: space-around;
-    align-items: center;
-  }
-  .caja {
-    width: 100px;
-    height: auto;
-    border: 1px solid rgb(255, 255, 255);
-    margin: 5px;
-    text-align: center;
-    line-height: 25px;
-  }
+
   .imagen {
     width: 300px;
     height: 200px;
@@ -521,27 +357,7 @@ main section article nav ol li {
   .final {
     display: none;
   }
-  .caja {
-    font-family: ¨Domine¨, sans-serif;
-    font-size: 15px;
-    margin-bottom: 1px;
-    color: black;
-  }
-  .enlace {
-    padding: 10px auto;
-    max-width: 90%;
-    line-height: 20px;
-    margin-top: 10px;
-  }
-  .boton {
-    padding: 6px 12px;
-    background-color: black;
-    border-radius: 12px;
-    text-decoration: none;
-    color: white;
-    margin-top: px;
-    background-position: center;
-  }
+
   .letrasvideo {
     display: none;
   }
@@ -551,50 +367,11 @@ main section article nav ol li {
   .top {
     display: none;
   }
-  /*Menu*/
-  .ancho {
-    width: 70%;
-    height: 50px;
-    background: red;
-    margin: auto;
-  }
-  .ancho {
-    width: 100%;
-    height: 60px;
-    background: #1B35DA;
-  }
-  .logo {
-    width: 40%;
-    height: 50px;
-    background: #1B35DA;
-    float: left;
-    box-sizing: border-box;
-  }
-  .menu {
-    width: 60%;
-    height: 50px;
-    background: #1B35DA;
-    float: left;
-    text-align: center;
-    padding-top: 12px;
-    box-sizing: border-box;
-    font-family: ¨Domine¨;
-  }
-  nav ul li {
-    display: inline;
-  }
-  nav ul li a {
-    color: white;
-    font-size: 6px;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-left: 7px;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-  nav ul li a:hover {
-    color: #444;
-  }
+
+
+
+
+
   /*footer*/
   #piedepagina {
     width: 100%;
@@ -605,7 +382,7 @@ main section article nav ol li {
     font-family: "Abril Fatface", cursive;
   }
   /*promociones*/
-  .grid-layout {
+  .grid-layou {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
@@ -620,304 +397,83 @@ main section article nav ol li {
     grid-column: 1/4;
     height: 50px;
   }
-  .caja2 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 5px;
-    float: left;
-  }
-  .batman {
-    letter-spacing: 1px;
-    border-radius: 6px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 15px;
-  }
+
+
   .fotobatman {
     width: 70px;
     height: 100px;
   }
-  .caja3 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 10px;
-    float: left;
-  }
-  .capitan {
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 20px;
-  }
+
+
   .fotocapitanamerica {
     width: 100px;
     height: 100px;
   }
-  .caja4 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 10px;
-    float: left;
-  }
-  .escuadron {
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 20px;
-  }
+
+
   .fotoescuadronsuicida {
     width: 100px;
     height: 100px;
   }
-  .caja5 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 10px;
-    float: left;
-  }
-  .ironman {
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 20px;
-  }
+
+
   .fotoironman {
     width: 100px;
     height: 100px;
   }
-  .caja6 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 10px;
-    float: left;
-  }
-  .spider {
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 20px;
-  }
+
+
   .fotospiderman {
     width: 100px;
     height: 100px;
   }
-  .caja7 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 10px;
-    float: left;
-  }
-  .xmen {
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 20px;
-  }
+
+
   .fotoxman {
     width: 100px;
     height: 100px;
   }
   /*GRID marvel*/
-  .caja2 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 10px;
-    float: left;
-  }
-  .capitana {
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 20px;
-  }
+  
+
   .fotocapitana {
     width: 100px;
     height: 100px;
   }
-  .caja4 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 10px;
-    float: left;
-  }
-  .fortnite {
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 20px;
-  }
+
+
   .fotofortnite {
     width: 100px;
     height: 100px;
   }
-  .caja6 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 10px;
-    float: left;
-  }
-  .guardianes {
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 20px;
-  }
+
+
   .fotoguardianes {
     width: 100px;
     height: 100px;
   }
-  .caja7 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 10px;
-    float: left;
-  }
-  .electra {
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 20px;
-  }
+
+
   .fotoelectra {
     width: 100px;
     height: 100px;
   }
   /*GRID dc*/
-  .caja3 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 10px;
-    float: left;
-  }
-  .superman {
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 20px;
-  }
+
+
   .fotosuperman {
     width: 100px;
     height: 100px;
   }
-  .caja5 {
-    grid-column: 1/4;
-    width: auto;
-    height: 150px;
-    border: 1px solid black;
-    margin: 7px;
-    text-align: center;
-    line-height: 10px;
-    float: left;
-  }
-  .batman2 {
-    letter-spacing: 1px;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: ¨Domine¨, sans-serif;
-    height: 20px;
-  }
+
+
   .fotobatman2 {
     width: 100px;
     height: 100px;
   }
-  /*Menu*/
-  .ancho {
-    width: 70%;
-    height: 50px;
-    background: red;
-    margin: auto;
-  }
-  .ancho {
-    width: 100%;
-    height: 60px;
-    background: #1B35DA;
-  }
-  .logo {
-    width: 40%;
-    height: 50px;
-    background: #1B35DA;
-    float: left;
-    box-sizing: border-box;
-  }
-  .menu {
-    width: 60%;
-    height: 50px;
-    background: #1B35DA;
-    float: left;
-    text-align: center;
-    padding-top: 12px;
-    box-sizing: border-box;
-    font-family: ¨Domine¨;
-  }
-  nav ul li {
-    display: inline;
-  }
-  nav ul li a {
-    color: white;
-    font-size: 6px;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding-left: 7px;
-    font-weight: bold;
-    letter-spacing: 1px;
-  }
-  nav ul li a:hover {
-    color: #444;
-  }
+
+
+
   /*footer*/
   #piedepagina {
     width: 100%;
@@ -930,4 +486,8 @@ main section article nav ol li {
   .logo {
     display: none;
   }
+  /*promociones*/
+.mapa {
+  display: none;
+}
 }/*# sourceMappingURL=estilos.css.map */
