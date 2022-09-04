@@ -1,23 +1,30 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500&display=swap");
 * {
   margin: 0%;
   padding: 0%;
 }
 
-/*header*/
+.bigicon {
+  color: #36A0FF;
+}
+
 header {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
 }
 
-.collapse {
-  flex-grow: 0.6;
+.navbar {
+  background-color: #1B35DA;
 }
 
-.navbar {
-  background: #1B35DA;
+.header {
+  color: #36A0FF;
+}
+
+.collapse {
+  flex-grow: 0.6;
 }
 
 i {
@@ -43,7 +50,6 @@ h1 {
   height: 400px;
 }
 
-/*List Style*/
 ul {
   list-style-type: none;
 }
@@ -56,8 +62,7 @@ ul {
   transition: 1s;
 }
 
-/*contacto*/
-.header{
+.header {
   color: #36A0FF;
   font-size: 27px;
   padding: 10px;
@@ -72,12 +77,10 @@ ul {
   font-family: ¨Domine¨;
   src: url("../fonts/Domine-Regular.ttf");
 }
-/*font descargada*/
 p {
   font-family: ¨Domine¨, sans-serif;
 }
 
-/*pie de pagina*/
 #piedepagina {
   width: 100%;
   background-color: black;
@@ -87,18 +90,22 @@ p {
   font-family: "Abril Fatface", cursive;
 }
 
+.piedepagina {
+  background-color: #36A0FF;
+}
 
+.button {
+  padding: 3px 2px;
+}
 
-/*fin*/
+.comprar {
+  font-family: "Anek Telugu", sans-serif;
+}
+
 ul {
   list-style-type: none;
 }
 
-.texto{
-  list-style-type: none;
-}
-/*bem*/
-/*GRID Promociones*/
 .grid-layout {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -116,41 +123,14 @@ ul {
   height: 100px;
 }
 
-
-
-.batman {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
-}
-
 .fotobatman {
-  width: 120px;
+  width: 140px;
   height: 200px;
-}
-
-
-
-.capitan {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
 }
 
 .fotocapitanamerica {
   width: 200px;
   height: 200px;
-}
-.escuadron {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
 }
 
 .fotoescuadronsuicida {
@@ -158,42 +138,14 @@ ul {
   height: 200px;
 }
 
-.ironman {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
-}
-
-.fotoironman {
+.fotoironman, .fotoescuadronsuicida {
   width: 200px;
   height: 200px;
 }
 
-
-
-.spider {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
-}
-
-.fotospiderman {
+.fotospiderman, .fotoescuadronsuicida {
   width: 200px;
   height: 200px;
-}
-
-
-
-.xmen {
-  letter-spacing: 1px;
-  border-radius: 25px;
-  margin-top: 10px;
-  font-family: ¨Domine¨, sans-serif;
-  height: 20px;
 }
 
 .fotoxman {
@@ -201,7 +153,6 @@ ul {
   height: 200px;
 }
 
-/*GRID index*/
 .inicio {
   display: grid;
   grid-template-columns: auto;
@@ -247,89 +198,54 @@ ul {
   transition: 2s;
 }
 
-
-
-/*GRID marvel*/
-
-
-
+main section article nav ol li {
+  font-size: 20px;
+  padding: 10px auto;
+  max-width: 90%;
+  line-height: 30px;
+  margin-top: 20px;
+}
 
 .fotocapitana {
   width: 200px;
   height: 200px;
 }
 
-
-
-
 .fotofortnite {
   width: 200px;
   height: 200px;
 }
-
-
-
 
 .fotoguardianes {
   width: 200px;
   height: 200px;
 }
 
-
-
-
-
 .fotoelectra {
   width: 200px;
   height: 200px;
 }
-
-
-
-
 
 .fotosuperman {
   width: 200px;
   height: 200px;
 }
 
-
-
-
 .fotobatman2 {
   width: 200px;
   height: 200px;
 }
 
-/*Animaciones, transformaciones y transiciones*/
 .caja1 {
   background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(37, 145, 251, 0.98) 0.1%, rgb(0, 7, 128) 99.8%);
 }
 
 .video {
-  -webkit-animation-name: animo;
-          animation-name: animo;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-  -webkit-animation-iteration-count: 1s;
-          animation-iteration-count: 1s;
-}
-
-@-webkit-keyframes animo {
-  0% {
-    transform: scale(0.5);
-    border-radius: 100%;
-  }
-  50% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(2);
-  }
+  animation-name: animo;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 3s;
+  animation-iteration-count: 1s;
 }
 
 @keyframes animo {
@@ -344,11 +260,20 @@ ul {
     transform: scale(2);
   }
 }
-/*mobile*/
 @media (max-width: 768px) {
-
+  .inicio {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    justify-self: space-around;
+    align-items: center;
+  }
   .imagen {
-    width: 300px;
+    width: 400px;
     height: 200px;
   }
   .frase {
@@ -357,7 +282,27 @@ ul {
   .final {
     display: none;
   }
-
+  .caja {
+    font-family: ¨Domine¨, sans-serif;
+    font-size: 15px;
+    margin-bottom: 1px;
+    color: black;
+  }
+  .enlace {
+    padding: 10px auto;
+    max-width: 90%;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .boton {
+    padding: 1px 3px;
+    background-color: black;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    margin-top: px;
+    background-position: center;
+  }
   .letrasvideo {
     display: none;
   }
@@ -367,22 +312,22 @@ ul {
   .top {
     display: none;
   }
-
-
-
-
-
-  /*footer*/
-  #piedepagina {
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 10px 10px;
-    background-image: url("../background/669.jpg");
-    font-family: "Abril Fatface", cursive;
+  nav ul li {
+    display: inline;
   }
-  /*promociones*/
-  .grid-layou {
+  nav ul li a {
+    color: white;
+    font-size: 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 7px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  nav ul li a:hover {
+    color: #444;
+  }
+  .grid-layout {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
@@ -397,97 +342,86 @@ ul {
     grid-column: 1/4;
     height: 50px;
   }
-
-
   .fotobatman {
     width: 70px;
     height: 100px;
   }
-
-
   .fotocapitanamerica {
     width: 100px;
     height: 100px;
   }
-
-
   .fotoescuadronsuicida {
     width: 100px;
     height: 100px;
   }
-
-
-  .fotoironman {
+  .fotoironman, .fotoescuadronsuicida {
     width: 100px;
     height: 100px;
   }
-
-
-  .fotospiderman {
+  .fotospiderman, .fotoescuadronsuicida {
     width: 100px;
     height: 100px;
   }
-
-
   .fotoxman {
     width: 100px;
     height: 100px;
   }
-  /*GRID marvel*/
-  
-
   .fotocapitana {
     width: 100px;
     height: 100px;
   }
-
-
   .fotofortnite {
     width: 100px;
     height: 100px;
   }
-
-
   .fotoguardianes {
     width: 100px;
     height: 100px;
   }
-
-
   .fotoelectra {
     width: 100px;
     height: 100px;
   }
-  /*GRID dc*/
-
-
   .fotosuperman {
     width: 100px;
     height: 100px;
   }
-
-
   .fotobatman2 {
     width: 100px;
     height: 100px;
   }
-
-
-
-  /*footer*/
+  nav ul li {
+    display: inline;
+  }
+  nav ul li a {
+    color: white;
+    font-size: 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 7px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  nav ul li a:hover {
+    color: #444;
+  }
   #piedepagina {
     width: 100%;
     background-color: black;
     color: white;
     padding: 10px 10px;
     background-image: url("../background/669.jpg");
-    font-family: "Abril Fatface", cursive;
+    font-family: ¨Domine¨, sans-serif;
   }
   .logo {
     display: none;
   }
-  /*promociones*/
-.mapa {
-  display: none;
+  .display {
+    display: none;
+  }
+  .list-group {
+    display: none;
+  }
 }
-}/*# sourceMappingURL=estilos.css.map */
+
+/*# sourceMappingURL=estilos.css.map */

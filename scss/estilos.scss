@@ -1,6 +1,6 @@
 @import "color";
 
-//variables
+
 $background: #1B35DA;
 $position: sticky;
 $ocolor: #36A0FF;
@@ -49,7 +49,7 @@ header {
     background-color: 
     $background;
 }
-//contacto
+
 .header{
     color: $decontacto;
 }
@@ -78,12 +78,15 @@ h1{
 }
 
 .imagen{
-    @include img-size(680px, 400px);
+    @include img-size(400px, 680px);
 }
 
-/*List Style*/
+
 ul{list-style-type: none;
 }
+
+
+
 
 
 .sp-image{
@@ -97,7 +100,7 @@ ul{list-style-type: none;
     
 }
 
-/*contacto*/
+
 .header {
     color: #36A0FF;
     font-size: 27px;
@@ -114,12 +117,13 @@ ul{list-style-type: none;
     src: url('../fonts/Domine-Regular.ttf');
     
 }
-/*font descargada*/
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@500&display=swap');
+
 p{
     font-family: ¨Domine¨, sans-serif;
 }
 
-/*pie de pagina*/
+
 
 #piedepagina{
     width: 100%;
@@ -134,18 +138,25 @@ p{
     background-color:#36A0FF
 }
 
-/*fin*/
+.button{
+    padding: 3px 2px;
+    
+}
+
+
+.comprar{
+    font-family: 'Anek Telugu', sans-serif;
+}
 
 
 
 ul{list-style-type: none;
 }
 
-/*bem*/
 
 
 
-/*GRID Promociones*/
+
 .grid-layout{
 
     display: grid;
@@ -168,7 +179,7 @@ ul{list-style-type: none;
 
 
 .fotobatman{
-    @include img-size(120px, 200px);
+    @include img-size(200px, 140px);
     
 }
 
@@ -203,7 +214,7 @@ ul{list-style-type: none;
 }
 
 
-/*GRID index*/
+
 .inicio{
     display: grid;
     grid-template-columns: auto ;
@@ -262,7 +273,7 @@ main section article nav ol li{
 }
 
 
-/*GRID marvel*/
+
 
 
 .fotocapitana{
@@ -290,7 +301,7 @@ main section article nav ol li{
 }
 
 
-/*GRID dc*/
+
 
 .fotosuperman{
     @include img-size(200px, 200px);
@@ -301,7 +312,7 @@ main section article nav ol li{
     @include img-size(200px, 200px);
     
 }
-/*Animaciones, transformaciones y transiciones*/
+
 
 .caja1{
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
@@ -330,7 +341,7 @@ main section article nav ol li{
         transform: scale(2);
     }
 }
-/*mobile*/
+
 
 @media (max-width: 768px){
 
@@ -345,16 +356,10 @@ main section article nav ol li{
         justify-self: space-around;
         align-items: center; 
     }
-    .caja{
-        @include img-size(100px, auto);
-        border: 1px solid rgb(255, 255, 255);
-        margin: 5px;
-        text-align: center;
-        line-height: 25px;
-    }
+
     
     .imagen{
-        @include img-size(300px, 200px);
+        @include img-size(200px, 400px);
     }
     .frase{
         display: none;
@@ -380,9 +385,9 @@ main section article nav ol li{
     
     
     .boton{
-        padding: 6px 12px;
+        padding: 1px 3px;
         background-color: black;
-        border-radius: 12px;
+        border-radius: 15px;
         text-decoration: none;
         color: white;
         margin-top: px;
@@ -400,16 +405,6 @@ main section article nav ol li{
     .top{
         display: none;
     }
-/*Menu*/
-
-
-.logo{
-    @include img-size(40%, 50px);
-    background: #1B35DA;
-    float: left;
-    box-sizing: border-box;
-}
-
 
 
 nav ul li{
@@ -430,19 +425,11 @@ nav ul li a:hover{
     color: #444;
 }
 
-/*footer*/
-#piedepagina{
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 10px 10px;
-    background-image: url('../background/669.jpg');
-    font-family: 'Abril Fatface', cursive;
-} 
 
 
 
-/*promociones*/
+
+
 
 .grid-layout{
 
@@ -462,10 +449,8 @@ nav ul li a:hover{
     height: 50px;
 }
 
-
-
 .fotobatman{
-    @include img-size(70px, 100px);
+    @include img-size(100px, 70px);
 }
 
 
@@ -499,7 +484,7 @@ nav ul li a:hover{
 }
 
 
-/*GRID marvel*/
+
 
 
 .fotocapitana{
@@ -523,7 +508,7 @@ nav ul li a:hover{
 }
 
 
-/*GRID dc*/
+
 
 .fotosuperman{
     @include img-size(100px, 100px);
@@ -534,17 +519,6 @@ nav ul li a:hover{
     @include img-size(100px, 100px);
     
 }
-
-/*Menu*/
-
-
-.logo{
-    @include img-size(40%, 50px);
-    background: #1B35DA;
-    float: left;
-    box-sizing: border-box;
-}
-
 
 
 nav ul li{
@@ -565,17 +539,24 @@ nav ul li a:hover{
     color: #444;
 }
 
-/*footer*/
+
 #piedepagina{
     width: 100%;
     background-color: black;
     color: white;
     padding: 10px 10px;
     background-image: url('../background/669.jpg');
-    font-family: 'Abril Fatface', cursive;
+    font-family: ¨Domine¨, sans-serif;
 } 
 
 .logo{
     display: none;
 }
+.display{
+    display: none;
+}
+.list-group{
+    display: none;
+}
+
 }
