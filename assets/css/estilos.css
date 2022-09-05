@@ -390,6 +390,9 @@ main section article nav ol li {
     width: 100px;
     height: 100px;
   }
+  .letrasnav {
+    font-size: medium;
+  }
   nav ul li {
     display: inline;
   }
